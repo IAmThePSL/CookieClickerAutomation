@@ -10,10 +10,6 @@ var ascenionCheckInterval;
 var ascendUpgradeInterval;
 var sugarLumpUpgradeInterval;
 
-(function () {
-  Game.gainLumps(9999);
-});
-
 function automateCookieClicker() {
   // give self lumps
   Game.gainLumps(99999999);
